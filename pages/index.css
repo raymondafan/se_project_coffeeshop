@@ -7,6 +7,69 @@
   margin-right: auto;
   margin-left: auto;
 }
+.header {
+  position: relative;
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
+  background-image: url(../images/background_header.svg);
+  background-size: cover;
+  background-color: #ffffff;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
 .logo {
   position: relative;
+  top: 30px;
+  left: 30px;
+  height: 142px;
+  width: 125px;
+}
+.nav__links {
+  display: flex;
+  column-gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 30px 80px;
+}
+.nav__link {
+}
+.header__title {
+  font-family: "Noto Serif";
+
+  font-style: italic;
+
+  font-weight: normal;
+
+  font-size: 60px;
+
+  line-height: 72px;
+
+  color: #2f80ed;
+}
+.header__span-accent {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+}
+.header__description {
+}
+.header__image {
+  position: absolute;
+  top: 124px;
+  right: 5px;
+  height: 568px;
+  width: 646px;
+  z-index: 1;
+}
+.header__footer {
+}
+.header__paragraph {
+  position: absolute;
+  left: 80px;
+  bottom: 40px;
 }
