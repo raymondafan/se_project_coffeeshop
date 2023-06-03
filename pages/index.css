@@ -101,3 +101,8 @@
   background-size: cover center;
   background-repeat: no-repeat;
 }
+.recipes__videos {
+  margin: 80px 216px;
+  display: flex;
+  justify-content: center;
+}
