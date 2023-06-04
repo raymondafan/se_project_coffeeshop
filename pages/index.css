@@ -40,6 +40,8 @@
   margin: 30px 80px;
 }
 .nav__link {
+  text-decoration: none;
+  color: black;
 }
 .header__title {
   display: flex;
@@ -108,8 +110,7 @@
   color: #ffffff;
   padding: 100px 80px 215px;
 }
-.recipes__content {
-}
+
 .recipes__title {
   font-family: "Inter";
   font-style: normal;
@@ -134,6 +135,7 @@
   gap: 40px;
 }
 .recipes__iframe {
+  border: none;
 }
 .recipes__video-caption {
   font-family: "Inter";
