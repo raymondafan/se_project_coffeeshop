@@ -151,7 +151,7 @@
   background-size: cover;
   background-color: #d9e7ff;
   background-repeat: no-repeat;
-  padding: 100px 80px 215px;
+  padding: 100px 80px 120px;
 }
 .reservation__title {
   font-family: "Inter";
@@ -165,7 +165,8 @@
   line-height: 52px;
   display: flex;
   justify-content: center;
-  margin: 100px 0 80px;
+  margin: 0;
+  margin-bottom: 80px;
 }
 .form {
   max-width: 385px;
@@ -200,9 +201,9 @@
   border: 2px solid #000000;
 }
 .form__input-checkbox {
-  margin-top: 32px;
   width: 20px;
   height: 20px;
+  margin-right: 12px;
 }
 
 .form__button {
@@ -237,6 +238,6 @@
   line-height: 20px;
   border-radius: 2px;
   border: none;
-  margin: 0;
   padding: 0;
+  margin: 32px;
 }
