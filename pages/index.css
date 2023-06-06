@@ -240,4 +240,6 @@
   border: none;
   padding: 0;
   margin: 32px;
+  display: flex;
+  flex-direction: row-reverse;
 }
