@@ -287,11 +287,8 @@
 .card__title {
 }
 .card__list-item {
-  display: flex;
 }
 .card__list-divider {
-  display: flex;
-
   flex-grow: auto 1 1 100%;
   border-bottom: #000000;
 }
