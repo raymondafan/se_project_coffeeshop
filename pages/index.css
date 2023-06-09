@@ -1,5 +1,17 @@
-@keyframes pulsate {
+@keyframes pulse {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(0);
+  }
 }
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -366,4 +378,7 @@
   position: absolute;
   top: -152px;
   left: -129px;
+}
+.about__circle_animation_blurred .about__circle {
+  animation: pulse 1.3s ease-in-out infinite;
 }
