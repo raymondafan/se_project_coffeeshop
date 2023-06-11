@@ -1,0 +1,8 @@
+.reservation {
+  background-image: url(../images/background_reservation.svg);
+  background-position: center;
+  background-size: cover;
+  background-color: #d9e7ff;
+  background-repeat: no-repeat;
+  padding: 100px 80px 120px;
+}
