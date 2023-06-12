@@ -13,4 +13,10 @@ This is the second project of the Web Development program at Practicum. It was c
 
 ## Plan on improving the project
 
-Add your ideas here :)
+Add your ideas here :
+-adding more animation and transitions to button: transform scale to increase size
+
+- animations for the header picture or practicum logo
+
+  -pictures of top menu items in the background image of the menu
+  )
