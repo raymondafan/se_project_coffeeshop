@@ -16,7 +16,7 @@
   box-sizing: border-box;
 }
 .form__label {
-  font-family: "Inter";
+  font-family: "Inter", Arial, Helvetica, sans-serif;
 
   font-style: normal;
 
@@ -42,7 +42,7 @@
 }
 
 .form__button {
-  font-family: "Inter";
+  font-family: "Inter", Arial, Helvetica, sans-serif;
 
   font-style: normal;
 
@@ -64,7 +64,7 @@
   transition: 0.65s ease-in-out;
 }
 .form__checkbox {
-  font-family: "Inter";
+  font-family: "Inter", Arial, Helvetica, sans-serif;
 
   font-style: normal;
 
