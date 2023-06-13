@@ -2,3 +2,18 @@
   display: flex;
   justify-content: space-between;
 }
+.nav__links {
+  display: flex;
+  column-gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 30px 80px;
+}
+.nav__link {
+  text-decoration: none;
+  color: black;
+}
+.nav__link:hover {
+  color: #2f80ed;
+  transition: 0.25s ease-in;
+}

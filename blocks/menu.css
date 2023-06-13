@@ -6,3 +6,36 @@
   background-repeat: no-repeat;
   padding: 100px 80px 100px;
 }
+.menu__title {
+  margin: 0 auto;
+  max-width: 780px;
+  display: flex;
+  justify-content: center;
+  font-family: "Inter";
+
+  font-style: normal;
+
+  font-weight: 500;
+
+  font-size: 44px;
+
+  line-height: 52px;
+}
+
+.menu__subtitle {
+  margin: 24px auto 0;
+  max-width: 780px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+.menu__cards {
+  margin: 100px 0 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+}
