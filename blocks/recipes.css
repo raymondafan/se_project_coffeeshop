@@ -42,19 +42,3 @@
   display: flex;
   justify-content: space-between;
 }
-
-.reservation__title {
-  font-family: "Inter", Arial, Helvetica, sans-serif;
-
-  font-style: normal;
-
-  font-weight: 500;
-
-  font-size: 44px;
-
-  line-height: 52px;
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  margin-bottom: 80px;
-}
