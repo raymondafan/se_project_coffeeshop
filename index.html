@@ -8,7 +8,7 @@
     <meta name="keywords" content="HTML, CSS, JavaScript" />
     <meta name="description" content="Coffee Shop Project" />
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="stylesheet" href="./favicon.ico" />
+    <link rel="icon" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,7 +25,7 @@
           <img
             src="./images/logo_coffee_shop.svg"
             alt="Coffee Shop Logo"
-            class="logo"
+            class="nav__logo"
           />
           <ul class="nav__links">
             <li><a href="#recipes" class="nav__link">Recipes</a></li>
@@ -71,8 +71,6 @@
             <div class="recipes__video">
               <iframe
                 class="recipes__iframe"
-                width="480"
-                height="273"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc"
                 title="The
                   Ultimate AeroPress Technique (Episode #3)"
@@ -88,8 +86,6 @@
             <div class="recipes__video">
               <iframe
                 class="recipes__iframe"
-                width="480"
-                height="273"
                 src="https://www.youtube.com/embed/st571DYYTR8"
                 title="The Ultimate French Press Technique"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -102,13 +98,14 @@
           </div>
         </section>
         <section class="reservation" id="bookatable">
-          <h3 class="reservation__title">Book a table</h3>
+          <h2 class="reservation__title">Book a table</h2>
           <form class="form reservation__form">
             <fieldset class="form__fieldset">
               <label class="form__label">
                 Name *
                 <input
                   type="text"
+                  required
                   class="form__input"
                   id="name"
                   placeholder="Name Surename"
@@ -118,6 +115,7 @@
                 Number of guests *
                 <input
                   type="text"
+                  required
                   class="form__input"
                   id="guests"
                   placeholder="1-8"
@@ -127,7 +125,8 @@
                 Date & Time *
                 <input
                   type="datetime-local"
-                  class="form__input form__input_date"
+                  required
+                  class="form__input"
                   id="date"
                 />
               </label>
@@ -135,21 +134,28 @@
                 Your email *
                 <input
                   type="email"
+                  required
                   class="form__input"
                   id="email"
                   placeholder="email@email.com"
                 />
               </label>
             </fieldset>
-            <button type="submit" class="form__button">Book a Table</button>
-            <fieldset class="form__checkbox">
-              <label class="form__label"> I agree with the terms of use </label>
-              <input
-                type="checkbox"
-                id="agreement"
-                name="agreement"
-                class="form__input-checkbox"
-              />
+            <fieldset class="form__fieldset">
+              <button type="submit" required class="form__button">
+                Book a Table
+              </button>
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label class="form__label form__label_type_checkbox">
+                <input
+                  type="checkbox"
+                  id="agreement"
+                  name="agreement"
+                  class="form__checkbox"
+                />
+                I agree with the terms of use
+              </label>
             </fieldset>
           </form>
         </section>
@@ -280,31 +286,35 @@
             class="footer__logo"
           />
 
-          <ul class="footer__list">
-            <li class="footer__social-heading">Social Media</li>
-            <li class="footer__list-item">
-              <a href="#" class="footer__social-link">
-                <img
-                  src="./images/facebook_white.svg"
-                  alt="Facebook Logo"
-                  class="footer__social-icon"
-                />
-                Facebook</a
-              >
-            </li>
-            <li class="footer__list-item">
-              <a href="#" class="footer__social-link">
-                <img
-                  src="./images/instagram_white.svg"
-                  alt="Instagram Logo"
-                  class="footer__social-icon"
-                />
-                Instagram</a
-              >
-            </li>
-          </ul>
+          <div class="footer__social">
+            <h2 class="footer__social-heading">Social Media</h2>
+
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="Facebook Logo"
+                    class="footer__social-icon"
+                  />
+                  Facebook</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="Instagram Logo"
+                    class="footer__social-icon"
+                  />
+                  Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="footer__copyright">© 2023 Raymond Afan</div>
+
+        <h3 class="footer__copyright">© 2023 Raymond Afan</h3>
       </footer>
     </div>
   </body>

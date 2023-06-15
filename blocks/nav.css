@@ -7,13 +7,21 @@
   column-gap: 20px;
   list-style: none;
   padding: 0;
-  margin: 30px 80px;
+  margin: 0;
 }
 .nav__link {
   text-decoration: none;
   color: black;
+  font-weight: 500;
 }
 .nav__link:hover {
   color: #2f80ed;
   transition: 0.25s ease-in;
+}
+.nav__logo {
+  position: relative;
+  top: 30px;
+  left: 30px;
+  height: 142px;
+  width: 125px;
 }
