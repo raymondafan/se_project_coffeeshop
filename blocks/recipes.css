@@ -8,7 +8,7 @@
   padding: 100px 80px 215px;
 }
 .recipes__title {
-  font-family: "Inter", "Times New Roman", "serif";
+  font-family: "Inter", "Arial", "sans-serif";
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -34,14 +34,16 @@
 }
 .recipes__iframe {
   border: none;
+  height: 273px;
+  width: 480px;
 }
 .recipes__video-caption {
-  font-family: "Inter", "Times New Roman", "serif";
+  font-family: "Inter", "Arial", "sans-serif";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
   display: flex;
   justify-content: space-between;
-  margin: 0;
+  margin: 24px 0 0;
 }

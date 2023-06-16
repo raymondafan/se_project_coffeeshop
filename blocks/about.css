@@ -20,8 +20,7 @@
   justify-content: space-between;
 }
 .about__title {
-  font-family: "Inter", "Times New Roman", "serif";
-
+  font-family: "Inter", "Arial", "sans-serif";
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
